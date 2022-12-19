@@ -32,11 +32,11 @@ Las defensas del robot estan distribuidas de forma relativamente equitativa: El 
 El movimiento y la operación del robot se logran mediante una simple aplicación movil. 6 botones, 4 organizados en una cruz y 2 paralelos, abajo de esta, permiten el movimiento y uso del arma, respectivamente.
 
 ## Diagrama funcional
-![Diag. Inicio Bot](/multimedia/flowchart_inicio.jpeg)
+![Diag. Inicio Bot](/multimedia/flowchart%20inicio.png)
 
-![Diag. Movimiento Bot](/multimedia/flowchart_movimiento.jpeg)
+![Diag. Movimiento Bot](/multimedia/flowchart%20movimiento.png)
 
-![Diag. Ataque Bot](/multimedia/flowchart_ataque.jpeg)
+![Diag. Ataque Bot](/multimedia/flowchart%20ataque.png)
 
 ## Paso a Paso
 ### Materiales
