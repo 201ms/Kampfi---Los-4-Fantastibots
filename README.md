@@ -1,5 +1,5 @@
 # Kampfi - 2022
-Inspirado por los errores tecnicos y la mala cuea, Kampfi fue creado para maximizar la cantidad de cosas que podrian salir mal al hacer girar un pedazo de acero a la velocidad del ventilador en el radiador de un sedan. El equivalente battlebotiano de lo que sucede cuando le das un ak-47 a un mono.
+Inspirado por los errores tecnicos y la mala suerte, Kampfi fue creado para maximizar la cantidad de cosas que podrian salir mal al hacer girar un pedazo de acero a la velocidad del ventilador en el radiador de un sedan. El equivalente battlebotiano de lo que sucede cuando le das un ak-47 a un mono.
 
 ![Kampfi](/multimedia/KampfiFinal.jpeg)
 
@@ -40,6 +40,7 @@ El movimiento y la operación del robot se logran mediante una simple aplicació
 
 ## Paso a Paso
 ### Materiales
+
 - Plancha de aluminio compuesto
 - Plancha de acero inoxidable cortada en rectangulos x3
 - Puente H de 12V
@@ -48,8 +49,8 @@ El movimiento y la operación del robot se logran mediante una simple aplicació
 - Regulador de voltaje 7 V a 5 V
 - Motor de radiador (12V), u análogo.
 - Filamento plastico PLA
-- Bateria 11.1 V, idealmente de alto mA por hora. 
-- Bateria 7.4 V
+- Bateria 11.1 V 1500mAide (o idealmente de alto mA por hora) 
+- Bateria 7.4 V 1200 mA
 - Cables
 - Tornillos
 - Tuercas
@@ -73,16 +74,15 @@ El movimiento y la operación del robot se logran mediante una simple aplicació
 
 ### Procedimiento
 
-1) Descargar todos los archivos de las piezas, el codigo de arduino y el apk de la app
-2) Realizar el circuito del bot
-3) Probar que funcione la parte electrica y la aplicacion
-4) Cortar las piezas de la base y la coraza
-5) Ensamblar los componentes en la base
-6) Armar la coraza
-7) Ensamblar el arma
-8) Asegurar todo en sus lugares
-9) Juntar la coraza y la base
-10) Comprobar el funcionamiento con el diagrama funcional
+1) Descargar todos los archivos ".f3z" de las piezas, el codigo ".ino" de arduino y el ".apk" de la app
+2) Realizar el circuito del bot de acuerdo a los diagrama
+3) Cortar las piezas de la base y la coraza en el Router CNC a través del archivo "piezas coraza.f3z" y "base.f3z"
+4) Cortar piezas de madera (en archivo "ensamblado.f3z") que permiten las uniones del ensamble. Utilice su herramienta de mayor comodidad
+5) Ensamblar los componentes en la base y armar la coraza. Para esto, guiarse por el archivo "ensamblado.f3z"
+6) Asegurar todo en sus lugares, utilizar la máxima cantidad de tornillos sin llegar a dañar la madera
+7) Comprobar que el circuito electrico funcione correctamente, guiarse a través de los diagramas
+8) Ensamblar el arma a la coraza y unir esta parte con la base
+10) Comprobar el funcionamiento de Kampfi con el diagrama funcional
 
 Su Kampfi esta listo para funcionar.
 
