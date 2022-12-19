@@ -32,39 +32,11 @@ Las defensas del robot estan distribuidas de forma relativamente equitativa: El 
 El movimiento y la operación del robot se logran mediante una simple aplicación movil. 6 botones, 4 organizados en una cruz y 2 paralelos, abajo de esta, permiten el movimiento y uso del arma, respectivamente.
 
 ## Diagrama funcional
-Iniciado:
-1- conectar batt secundaria, confirmar que se prende la luz en modulo bluetooth y modulo arduino
-      si no hay bluetooth, checkear conexión con shield
-            si aun no hay bluetooth, y hay arduino reemplazar shield y probar
-                  si aun no hay bluetooth reemplazar modulo bluetooth
-      si no hay arduino (ni bluetooth), checkear conexion con bateria y carga
-            si aun no hay arduino reemplazar shield y probar
-                  si aun no hay arduino reemplazar arduino
-       
-2- conectar batt primaria, confirmar que se prende luz en puente H
-      si no hay luz checkear conexiones bateria y carga
-            si aun no hay luz checkear conexion entre puente H y bateria (cables rojo y negro), posiblemente reemplazar puente H
+![Diag. Inicio Bot](/multimedia/flowchart inicio.jpeg)
 
-3- conectar celular a modulo bluetooth
-      si no conecta intentar denuevo
-            si no conecta luego de un numero razonable de intentos cerrar aplicación, abrirla e intentar denuevo
-                  si aun no conecta debuggear a fondo
-            
-4- el robot esta listo para su uso
+![Diag. Movimiento Bot](/multimedia/flowchart movimiento.jpeg)
 
-Movimiento: 
-- frente/atras/izq/derecha mueve al frente/blablabla
-      si no funciona levantar al robot del piso y checkear
-            si funciona cargar batería principal y listo
-            si no funciona abrir robot y checkear conexiónes con motores/puente H
-                  si conexiones estan bien desarmar motor y unir nuevamente engranage a driveshaft motor
-                  
-Ataque:
-1- activar motor
-2- acercarse a enemigo y desactivar motor dentro de rango aceptable
-3- impactar enemigo
-4- maniobrar para que helice este libre para rotar sin chocar contra alguna superficie
-      si no se puede maniobrar, usar ataque e intentar lo que sea, sUerte
+![Diag. Ataque Bot](/multimedia/flowchart ataque.jpeg)
 
 ## Paso a Paso
 ### Materiales
